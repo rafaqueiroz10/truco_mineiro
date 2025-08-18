@@ -13,7 +13,7 @@ public class BaralhoService {
     }
 
     BaralhoService() {
-        cartas = new ArrayList<Carta>(NUMERO_MAXIMO_CARTAS);
+        cartas = new ArrayList<>(NUMERO_MAXIMO_CARTAS);
     }
 
     public void addCarta(Carta carta) {
