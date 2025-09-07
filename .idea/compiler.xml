@@ -9,12 +9,12 @@
         <module name="Service" />
         <module name="DAO" />
         <module name="Controller" />
-        <module name="View" />
         <module name="Entidades" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DTO" target="11" />
+      <module name="View" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
