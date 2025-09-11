@@ -2,24 +2,20 @@ package br.trucomineiro;
 
 public class Carta {
     private final int id;
+    private final ValoresCarta valor;
+    private final NaipesCarta naipe;
 
-    // recomendado: usar enum
-    private final int valor;
-
-    // recomendado: usar enum
-    private final String naipe;
-
-    public Carta(int id, int valor, String naipe) {
+    public Carta(int id, ValoresCarta valor, NaipesCarta naipe) {
         this.valor = valor;
         this.naipe = naipe;
         this.id = id;
     }
 
-    public int getValor() {
+    public ValoresCarta getValor() {
         return valor;
     }
 
-    public String getNaipe() {
+    public NaipesCarta getNaipe() {
         return naipe;
     }
 }
